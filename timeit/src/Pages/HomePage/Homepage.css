@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Caveat:wght@500&family=Comforter&family=David+Libre:wght@500&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:wght@400;700;800&family=Open+Sans:wght@300&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@700;900&family=Shizuru&family=Smooch&family=Square+Peg&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Caveat:wght@500&family=Comforter&family=David+Libre:wght@500&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:wght@400;700;800&family=Open+Sans:wght@300&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@500;700;900&family=Shizuru&family=Smooch&family=Square+Peg&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Caveat:wght@500&family=Comforter&family=David+Libre:wght@500&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:wght@400;700;800&family=Open+Sans:wght@300&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@700;900&family=Shizuru&family=Smooch&family=Varela+Round&display=swap");
 
 .home-container {
   display: flex;
@@ -24,4 +26,56 @@
 
 .hero-center {
   text-align: center;
+}
+
+.inputName-text {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 2rem;
+  font-size: 20px;
+}
+
+.inputName-text:focus {
+  border-bottom: 2px solid #00d4ff;
+}
+
+.input-name {
+  width: 40rem;
+  text-align: center;
+  position: relative;
+  left: 25rem;
+}
+
+.inputName-text::placeholder {
+  color: #00d4ff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hero-btn {
+  height: 50px;
+  width: 100px;
+  border: 5px solid #00d4ff;
+  background-color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+
+.hero-btn-text {
+  color: #00d4ff;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.hero-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
 }
